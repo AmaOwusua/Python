@@ -7,7 +7,7 @@ d1 = ["Designer", "Kwaku", 29, "Pro", 9000]
 # creating a class
 
 
-class SoftwareEngineer:
+class SoftwareEngineer1:
     # class attribute
 
     alias = "Magician"
@@ -31,14 +31,14 @@ class SoftwareEngineer:
 
 
 # instance
-se1 = SoftwareEngineer("Ama", 25, "Junior", 6000)
+se1 = SoftwareEngineer1("Ama", 25, "Junior", 6000)
 print(se1.salary, se1.name)
 se1a = se1.level
 print(se1a)
 print(se1.alias)
-print(SoftwareEngineer.alias)
-se2 = SoftwareEngineer("Glen", 27, "Senior", 8000)
-print(SoftwareEngineer.alias)
+print(SoftwareEngineer1.alias)
+se2 = SoftwareEngineer1("Glen", 27, "Senior", 8000)
+print(SoftwareEngineer1.alias)
 
 se1.code()
 print(se1)
