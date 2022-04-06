@@ -7,7 +7,7 @@ d1 = ["Designer", "Kwaku", 29, "Pro", 9000]
 # creating a class
 
 
-class SoftwareEngineer1:
+class SoftwareEngineer1:                   #renamed branch
     # class attribute
 
     alias = "Magician"
