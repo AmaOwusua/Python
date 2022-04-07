@@ -17,4 +17,6 @@ Hands-on python projects
 git push origin main --force
 git status                                      #to know if there is any commit to be worked on
 git branch                                      #to know the branch you are working in
+git remote -v                                   #to check origin for the (fetch) and (push)
+git branch --set-upstream-to=origin/<branch> main      #tracking information for a branch
 ````
