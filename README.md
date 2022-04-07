@@ -11,5 +11,10 @@ Hands-on python projects
 
 -Encapsulation and Abstraction(OOP3.py)
 
+### CLI Commands working with GitHub
 
-### git push origin main --force   
+````
+git push origin main --force
+git status                                      #to know if there is any commit to be worked on
+git branch                                      #to know the branch you are working in
+````
