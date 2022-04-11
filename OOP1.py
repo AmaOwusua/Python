@@ -7,7 +7,7 @@ d1 = ["Designer", "Kwaku", 29, "Pro", 9000]
 # creating a class
 
 
-class SoftwareEngineer12:                   #renamed branch
+class SoftwareEngineer13:                   #renamed branch
     # class attribute
 
     alias = "Magician"
@@ -31,14 +31,14 @@ class SoftwareEngineer12:                   #renamed branch
 
 
 # instance
-se1 = SoftwareEngineer12("Ama", 25, "Junior", 6000)
+se1 = SoftwareEngineer13("Ama", 25, "Junior", 6000)
 print(se1.salary, se1.name)
 se1a = se1.level
 print(se1a)
 print(se1.alias)
-print(SoftwareEngineer12.alias)
-se2 = SoftwareEngineer12("Glen", 27, "Senior", 8000)
-print(SoftwareEngineer12.alias)
+print(SoftwareEngineer13.alias)
+se2 = SoftwareEngineer13("Glen", 27, "Senior", 8000)
+print(SoftwareEngineer13.alias)
 
 se1.code()
 print(se1)
