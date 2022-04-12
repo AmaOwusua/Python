@@ -19,6 +19,7 @@ git status                                      #to know if there is any commit 
 git branch                                      #to know the branch you are working in
 git remote -v                                   #to check origin for the (fetch) and (push)
 git branch --set-upstream-to=origin/<branch> main      #tracking information for a branch
+git help
 ````
 
 
